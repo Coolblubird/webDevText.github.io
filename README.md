@@ -1,6 +1,8 @@
 # webDevText.github.io
 NOTE: this is not associated with the Happy Factory at all and is just an assignment for a class.
 
+# What is this?
+treat this as like a shared notepad for us. Feel free to add whatever you want, as long as it looks nice.
 
 # Development notes:
 -Note the following about GitHub Specifically: https://github.com/orgs/community/discussions/160361

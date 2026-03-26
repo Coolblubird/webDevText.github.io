@@ -1,0 +1,25 @@
+/*
+    Jordan Ashe, Aedin Richardson, Bentley Herbstritt
+    Started on: 3/26/26
+    styles.css
+
+    This file's purpose is to access styles and change formatting of the website. 
+    Ok this is going to sound weird but I kinda like the idea of the color scheme being blues, whites, and reds, but not in like an america way in like-
+    an Imagination Movers kinda way?
+    If you have other ideas I'm open. Here is the link for the actual Happy Factory's website if you want to get some inspiration: https://www.happyfactory.org/
+*/
+
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General Styles for Mobile*/
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
