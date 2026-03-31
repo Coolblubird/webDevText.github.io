@@ -14,15 +14,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Happy Factory</title>
         <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" type="image/x-icon" href="/MEDIA/favicon.ico">
     </head>
     <body>
         <!-- Navigation bar for mobile -->
         <nav id="mobile-nav">
-            
+            <div id="navLinks">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            </div>
+            <a href="javascript:void(0);" class="burgerMenu" onclick="myFunction()">&#9776;</a>
         </nav>
         
         <header>
-            <h1>The Happy Factory</h1>
+            <img src="MEDIA/logo.png" alt="The Happy Factory Logo">
         </header>
         
         <!-- Navigation bar for desktop/large tablet -->
@@ -33,13 +38,26 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        
-        <!-- Visible content goes here -->
-        <h1>Hello, World!</h1>
-        <p>This is a basic HTML page.</p>
+
+        <main>
+            <h1>Welcome to the Happy Factory!</h1>
+            <img src="MEDIA/Slide1.png" alt="slide-style image showing children playing with wooden car toys">
+            <p>This is a non-profit organization dedicated to bringing joy and happiness to children who have none.</p>
+            <p>We have currently shipped almost 2 million toys around the world!</p>
+        </main>
 
         <footer>
-            <p>&copy; 2026 The Happy Factory. All rights reserved.</p>
+            <div class="contact-info">
+                <p>896 N. 2175 W. Circle Cedar City, UT 84721</p>
+                <p>Contact us at (435) 586-8352</p>
+                <p>&copy; 2026 The Happy Factory. All rights reserved.</p>
+            </div>
+            <div class="social-media">
+                <p>Follow us on our social media pages below:</p>
+                <!-- These are technically links to social media rather than the proper page because the Happy Factory does not have a proper page. -->
+                <a href="https://www.twitter.com"><img src="MEDIA/xicon.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com"><img src="MEDIA/instaicon.png" alt="Instagram Icon"></a>
+            </div>
         </footer>
     </body>
 </html>
