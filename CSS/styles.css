@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-around;
     padding: 1em;
-    display: block;
+    display: none;
     text-align: center;
     font-size: 1.5em;
 }
@@ -54,7 +54,7 @@ nav a{
 }
 
 #mobile-nav{
-    display: none;
+    display: block;
     background-color: #0a122c;
     color: white;
     padding-left: 5em;
@@ -80,6 +80,10 @@ nav a{
     display: block;
     margin: 0.5em;
     font-size: 3em;
+}
+
+#currentPage{
+    color: #c4002e;
 }
 
 header{
@@ -120,10 +124,22 @@ footer div a{
 
 /*Media Queries for Desktop/Large Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
+    #desktop-nav{
+        display: block;
+    }
 
+    #mobile-nav{
+        display: none;
+    }
 }
 
 /*Media Queries for Large Desktops*/
 @media (min-width: 1024px) {
+    #desktop-nav{
+        display: block;
+    }
 
+    #mobile-nav{
+        display: none;
+    }
 }
