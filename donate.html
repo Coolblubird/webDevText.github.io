@@ -1,0 +1,73 @@
+<!--
+    Jordan Ashe, Aedin Richardson, Bentley Herbstritt
+    Started on: 3/26/26
+    donate.html
+
+    This file's purpose is to create a shell from which we can bring new pages "up to speed" with the format, navigation, and title.
+-->
+
+<!--note that rn this is just defaults, if you think something looks cooler by all means make changes - Jordan-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Happy Factory: Donate</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" type="image/x-icon" href="/MEDIA/favicon.ico">
+    </head>
+    <body>
+        <!-- Navigation bar for mobile -->
+        <nav id="mobile-nav">
+            <a href="javascript:void(0);" class="burgerMenu" onclick="dropMenu()">&#9776;</a>
+            <div id="navLinks">
+                <!--DONT FORGET TO ADJUST CURRENTPAGE FOR EACH PAGE-->
+                <a href="index.html">Home</a>
+                <a href="story.html">Our Story</a>
+                <a href="volunteer.html">Volunteer</a>
+                <a href="donate.html" id="currentPage">Donate</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+        <header>
+            <img src="MEDIA/logo.png" alt="The Happy Factory Logo">
+        </header>
+        
+        <!-- Navigation bar for desktop/large tablet -->
+        <nav id="desktop-nav">
+            <ul>
+                <!--DONT FORGET TO ADJUST CURRENTPAGE FOR EACH PAGE-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donate.html" id="currentPage">Donate</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Donate to the Happy Factory!</h1>
+            <img src="MEDIA/Slide1.png" alt="slide-style image showing children playing with wooden car toys">
+            <p>This is a non-profit organization dedicated to bringing joy and happiness to children who have none.</p>
+            <p>We have currently shipped almost 2 million toys around the world!</p>
+        </main>
+
+        <footer>
+            <div class="contact-info">
+                <p>896 N. 2175 W. Circle Cedar City, UT 84721</p>
+                <p>Contact us at (435) 586-8352</p>
+                <p>&copy; 2026 The Happy Factory. All rights reserved.</p>
+            </div>
+            <div class="social-media">
+                <p>Follow us on our social media pages below:</p>
+                <!-- These are technically links to social media rather than a proper page because the Happy Factory does not have a proper page. -->
+                <a href="https://www.twitter.com"><img src="MEDIA/xicon.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com"><img src="MEDIA/instaicon.png" alt="Instagram Icon"></a>
+            </div>
+        </footer>
+    <script src="SCRIPTS/script.js"></script>
+    </body>
+</html>
