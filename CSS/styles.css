@@ -18,6 +18,8 @@
     but feel free to add to the list! -Jordan
 */
 
+@import url('https://googleapis.com');
+
 /*CSS Reset*/
 * {
     margin: 0;
@@ -102,6 +104,34 @@ main{
 main a{
     color: #c4002e;
     text-decoration: none;
+}
+
+/* Styles for index page, mainly changing fonts*/
+main h1{
+    margin-bottom: 0.5em;
+    font-family: "Comic Relief", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main h2{
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-family: "Irish Grover", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main p{
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 footer{
