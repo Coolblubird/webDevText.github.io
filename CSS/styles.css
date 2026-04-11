@@ -96,9 +96,9 @@ header{
 }
 
 main{
+    font-size:1.5em;
     padding: 5em;
     text-align: center;
-    font-size:1.5em;
 }
 
 main a{
@@ -128,10 +128,32 @@ main p{
     font-style: normal;
 }
 
-main img{
+main .kidsSlide{
     width: 100%;
     height: auto;
     margin: 0 auto;
+}
+
+main .founders{
+    margin: 0 auto;
+}
+
+main .about1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2em;
+    padding: 2em;
+    font-size:1em;
+}
+
+main .about2 {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 2em;
+    padding: 2em;
+    font-size:1em;
 }
 
 footer{
