@@ -59,10 +59,16 @@ nav a{
     display: block;
     background-color: #0a122c;
     color: white;
-    padding-left: 5em;
+    padding-left: 5%;
     padding-bottom: 1em;
-    padding-right: 5em;
+    padding-right: 5%;
     padding-top: 1em;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .burgerMenu{
@@ -191,6 +197,12 @@ footer div a{
 
 /*Media Queries for Desktop/Large Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
+    header img{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    
     main{
         padding: 5em;
     }
@@ -206,6 +218,12 @@ footer div a{
 
 /*Media Queries for Large Desktops*/
 @media (min-width: 1024px) {
+    header img{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    
     main{
         padding: 5em;
     }
