@@ -97,7 +97,7 @@ header{
 
 main{
     font-size:1.5em;
-    padding: 5em;
+    padding: 5%;
     text-align: center;
 }
 
@@ -191,6 +191,10 @@ footer div a{
 
 /*Media Queries for Desktop/Large Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
+    main{
+        padding: 5em;
+    }
+    
     #desktop-nav{
         display: block;
     }
@@ -202,6 +206,10 @@ footer div a{
 
 /*Media Queries for Large Desktops*/
 @media (min-width: 1024px) {
+    main{
+        padding: 5em;
+    }
+
     #desktop-nav{
         display: block;
     }
