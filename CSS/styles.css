@@ -65,7 +65,7 @@ nav a{
     padding-top: 1em;
 }
 
-.burgerMenu{
+.burgerMenu, .storyOption{
     cursor: pointer;
     float: right;
     right:0;
