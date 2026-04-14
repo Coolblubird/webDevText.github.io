@@ -49,6 +49,7 @@ function dropStoryTwo() {
 			fill: "both",
 			duration:1000});
   }
+}
   
 function dropStoryThree() {
   var x = document.getElementById("storyDetailsThree");
@@ -68,6 +69,7 @@ function dropStoryThree() {
 			fill: "both",
 			duration:1000});
   }
+}
     
 function dropStoryFour() {
   var x = document.getElementById("storyDetailsFour");
@@ -87,6 +89,7 @@ function dropStoryFour() {
 			fill: "both",
 			duration:1000});
   }
+}
   
  function dropStoryFive() {
   var x = document.getElementById("storyDetailsFive");
@@ -106,6 +109,8 @@ function dropStoryFour() {
 			fill: "both",
 			duration:1000});
   }
+ }
+
 function dropStorySix() {
   var x = document.getElementById("storyDetailsSix");
   if (x.style.display === "block") {
@@ -124,6 +129,8 @@ function dropStorySix() {
 			fill: "both",
 			duration:1000});
   }
+}
+
 function dropStorySeven() {
   var x = document.getElementById("storyDetailsSeven");
   if (x.style.display === "block") {
@@ -142,6 +149,7 @@ function dropStorySeven() {
 			fill: "both",
 			duration:1000});
   }
+}
 function dropStoryEight() {
   var x = document.getElementById("storyDetailsEight");
   if (x.style.display === "block") {
@@ -160,3 +168,4 @@ function dropStoryEight() {
 			fill: "both",
 			duration:1000});
   }
+}
