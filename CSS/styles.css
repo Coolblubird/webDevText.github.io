@@ -88,10 +88,6 @@ nav a{
     color: #c4002e;
 }
 
-#storyDetailsOne, #storyDetailsTwo, #storyDetailsThree, #storyDetailsFour, #storyDetailsFive, #storyDetailsSix, #storyDetailsSeven, #storyDetailsEight{
-    display: none;
-}
-
 header{
     background-color: #0a122c;
     color: white;
@@ -159,6 +155,21 @@ main .about2 {
     padding: 2em;
     font-size:1em;
 }
+
+/*So that JS plays nice :)*/
+#storyDetails1, #storyDetails2, #storyDetailsOne, #storyDetailsTwo, #storyDetailsThree, #storyDetailsFour, #storyDetailsFive, #storyDetailsSix, #storyDetailsSeven, #storyDetailsEight{
+    display: none;
+}
+
+ #storyDetails3{
+    text-align: center;
+    display: none;
+ }
+
+ /*hr break padding*/
+ main hr{
+    margin: 2em 0;
+ }
 
 footer{
     background-color: #0a122c;
