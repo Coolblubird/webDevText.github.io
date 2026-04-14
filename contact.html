@@ -53,7 +53,7 @@
 
         <main>
             <h1>Contact the Happy Factory!</h1>
-            <form action="" method="get" class="contact-form">
+            <form action="thankyou.html" method="post" class="contact-form">
                 <fieldset>
                     <legend>Contact Information</legend>
                     
@@ -85,16 +85,16 @@
                     <input type="text" id="org-name" name="org-name">
 
                     <label for="contact-method">Preferred Contact Method:</label>
-                    <input type="text" id="contact-method" name="contact-method">
+                    <input type="text" id="contact-method" name="contact-method" required>
 
                     <label for="discovery-source">How did you hear about us?</label>
-                    <input type="text" id="discovery-source" name="discovery-source">
+                    <input type="text" id="discovery-source" name="discovery-source" required>
 
                     <label for="submission-date">Today's Date:</label>
-                    <input type="date" id="submission-date" name="submission-date">
+                    <input type="date" id="submission-date" name="submission-date" required>
 
                     <label for="user-message">Message:</label>
-                    <textarea id="user-message" name="user-message" rows="10"></textarea>
+                    <textarea id="user-message" name="user-message" rows="10" required></textarea>
                 </fieldset>
                 <button type="submit">Submit</button>
             </form>

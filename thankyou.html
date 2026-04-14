@@ -1,0 +1,77 @@
+<!--
+    Jordan Ashe, Aedin Richardson, Bentley Herbstritt
+    Started on: 3/26/26
+    template.html
+
+    This file's purpose is to create a shell from which we can bring new pages "up to speed" with the format, navigation, and title.
+-->
+
+<!--note that rn this is just defaults, if you think something looks cooler by all means make changes - Jordan-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Happy Factory</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" type="image/x-icon" href="/MEDIA/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Irish+Grover&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation bar for mobile -->
+        <nav id="mobile-nav">
+            <a href="javascript:void(0);" class="burgerMenu" onclick="dropMenu()">&#9776;</a>
+            <div id="navLinks">
+                <!--DONT FORGET TO ADJUST CURRENTPAGE FOR EACH PAGE-->
+                <a href="index.html" id="currentPage">Home</a>
+                <a href="story.html">Toy Stories</a>
+                <a href="volunteer.html">Volunteer</a>
+                <a href="donate.html">Donate</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+        <header>
+            <img src="MEDIA/logo.png" alt="The Happy Factory Logo">
+        </header>
+        
+        <!-- Navigation bar for desktop/large tablet -->
+        <nav id="desktop-nav">
+            <ul>
+                <!--DONT FORGET TO ADJUST CURRENTPAGE FOR EACH PAGE-->
+                <li><a href="index.html" id="currentPage">Home</a></li>
+                <li><a href="story.html">Toy Stories</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Thank You!</h1>
+            <p style="padding-bottom: 1em;">We appreciate your interest in The Happy Factory and will get back to you as soon as possible.</p>
+            <img class="kidsSlide" src="MEDIA/happychild.jpg" alt="image showing child holding a toy and smiling" style="border: .2em; border-color: black; border-style: solid ; border-radius: 1em;">
+        </main>
+
+        <footer>
+            <div class="contact-info">
+                <p>896 N. 2175 W. Circle Cedar City, UT 84721</p>
+                <p>Contact us at (435) 586-8352</p>
+                <p>&copy; 2026 The Happy Factory. All rights reserved.</p>
+            </div>
+            <div class="social-media">
+                <p>Follow us on our social media pages below:</p>
+                <!-- These are technically links to social media rather than a proper page because the Happy Factory does not have a proper page. -->
+                <!-- Apparently they have a Facebook page, so here is that link -->
+                <a href="https://www.twitter.com"><img src="MEDIA/xicon.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com"><img src="MEDIA/instaicon.png" alt="Instagram Icon"></a>
+                <a href="https://www.facebook.com/happyfactoryinc/"><img src="MEDIA/Facebook_Logo.png" alt="Facebook Icon"></a>
+            </div>
+        </footer>
+    <script src="SCRIPTS/script.js"></script>
+    </body>
+</html>
