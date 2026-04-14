@@ -65,10 +65,17 @@ nav a{
     padding-top: 1em;
 }
 
+header{
+    background-color: #0a122c;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
 header img{
-    width: 350px;
+    width: auto;
     height: auto;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .burgerMenu{
@@ -98,13 +105,6 @@ header img{
 	width:25%;
 	height:auto;
 	margin: 0 auto;
-}
-
-header{
-    background-color: #0a122c;
-    color: white;
-    padding: 2em;
-    text-align: center;
 }
 
 main{
@@ -143,7 +143,6 @@ main p{
 main .kidsSlide{
     width: 100%;
     height: auto;
-    margin: 0 auto;
 }
 
 main .founders{
@@ -181,6 +180,20 @@ main .about2 {
  /*hr break padding*/
  main hr{
     margin: 2em 0;
+ }
+
+ main .cars{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5em;
+    padding: 1em;
+ }
+
+ .cars img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
  }
 
 fieldset {
