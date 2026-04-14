@@ -73,7 +73,7 @@ nav a{
     font-size: 2em;
 }
 
-#navLinks{
+#navLinks, #storyDetailsOne{
     display: none;
     background-color: #03050c;
 }
