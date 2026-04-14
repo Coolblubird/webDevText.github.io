@@ -53,9 +53,52 @@
 
         <main>
             <h1>Contact the Happy Factory!</h1>
-            <img class="kidsSlide" src="MEDIA/Slide1.png" alt="slide-style image showing children playing with wooden car toys">
-            <p>This is a non-profit organization dedicated to bringing joy and happiness to children who have none.</p>
-            <p>We have currently shipped almost 2 million toys around the world!</p>
+            <form action="" method="get" class="contact-form">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" name="user-email" required>
+
+                    <label for="phone-number">Phone:</label>
+                    <input type="tel" id="phone-number" name="phone-number" required>
+
+                    <label for="subject-select">Subject:</label>
+                    <select id="subject-select" name="subject-select">
+                        <option value="general">General Inquiry</option>
+                        <option value="volunteer">Volunteer Opportunities</option>
+                        <option value="donation">Donation Information</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquiry Details</legend>
+                    
+                    <label for="org-name">Organization Name(if applicable):</label>
+                    <input type="text" id="org-name" name="org-name">
+
+                    <label for="contact-method">Preferred Contact Method:</label>
+                    <input type="text" id="contact-method" name="contact-method">
+
+                    <label for="discovery-source">How did you hear about us?</label>
+                    <input type="text" id="discovery-source" name="discovery-source">
+
+                    <label for="submission-date">Today's Date:</label>
+                    <input type="date" id="submission-date" name="submission-date">
+
+                    <label for="user-message">Message:</label>
+                    <textarea id="user-message" name="user-message" rows="10"></textarea>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+            <h2 id="contact-heading">We Love Hearing From You!</h2>
         </main>
 
         <footer>
