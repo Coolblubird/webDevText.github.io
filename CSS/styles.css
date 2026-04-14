@@ -94,6 +94,12 @@ header img{
     color: #c4002e;
 }
 
+.images img{
+	width:25%;
+	height:auto;
+	margin: 0 auto;
+}
+
 header{
     background-color: #0a122c;
     color: white;
