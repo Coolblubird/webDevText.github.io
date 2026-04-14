@@ -1,4 +1,5 @@
 
+
 // Display the dropdown menu when the user clicks on the hamburger icon
 function dropMenu() {
   var x = document.getElementById("navLinks");
@@ -11,161 +12,38 @@ function dropMenu() {
 
 //Display the story when the user clicks the down icon for each of the stories
 
-function dropStoryOne() {
-  var x = document.getElementById("storyDetailsOne");
+function dropStory(storyID) {
+  var x = document.getElementById("storyDetails" + storyID);
   if (x.style.display === "block") {
-    document.getElementById("storyOptionOne").innerHTML="&#9660;";
+    document.getElementById("storyOption" + storyID).innerHTML="&#9660;";
     x.style.display = "none";
     
   } else {
     x.style.display = "block";
-	  document.getElementById("storyOptionOne").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
-  }
-}
+	  document.getElementById("storyOption" + storyID).innerHTML="&#9650;";
 
-function dropStoryTwo() {
-  var x = document.getElementById("storyDetailsTwo");
-  if (x.style.display === "block") {
-    document.getElementById("storyOptionTwo").innerHTML="&#9660;";
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-	  document.getElementById("storyOptionTwo").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
-  }
-}
-  
-function dropStoryThree() {
-  var x = document.getElementById("storyDetailsThree");
-  if (x.style.display === "block") {
-    document.getElementById("storyOptionThree").innerHTML="&#9660;";
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-	  document.getElementById("storyOptionThree").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
-  }
-}
-    
-function dropStoryFour() {
-  var x = document.getElementById("storyDetailsFour");
-  if (x.style.display === "block") {
-    document.getElementById("storyOptionFour").innerHTML="&#9660;";
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-	  document.getElementById("storyOptionFour").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
-  }
-}
-  
- function dropStoryFive() {
-  var x = document.getElementById("storyDetailsFive");
-  if (x.style.display === "block") {
-    document.getElementById("storyOptionFive").innerHTML="&#9660;";
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-	  document.getElementById("storyOptionFive").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
-  }
- }
+    //randomize which direction to come from
+    let randomNum = Math.random(); //returns a number between 0 and 1, for those who dont know
 
-function dropStorySix() {
-  var x = document.getElementById("storyDetailsSix");
-  if (x.style.display === "block") {
-    document.getElementById("storyOptionSix").innerHTML="&#9660;";
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-	  document.getElementById("storyOptionSix").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
-  }
-}
-
-function dropStorySeven() {
-  var x = document.getElementById("storyDetailsSeven");
-  if (x.style.display === "block") {
-    document.getElementById("storyOptionSeven").innerHTML="&#9660;";
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-	  document.getElementById("storyOptionSeven").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
-  }
-}
-function dropStoryEight() {
-  var x = document.getElementById("storyDetailsEight");
-  if (x.style.display === "block") {
-    document.getElementById("storyOptionEight").innerHTML="&#9660;";
-    x.style.display = "none";
-    
-  } else {
-    x.style.display = "block";
-	  document.getElementById("storyOptionOneEight").innerHTML="&#9650;";
-    x.animate(
-		{
-			opacity: [0, 1],
-			transform: ["translateX(-200px)", "translateX(0px)"],
-		},
-		{
-			fill: "both",
-			duration:1000});
+    if(randomNum < 0.5){
+      x.animate(
+      {
+        opacity: [0, 1],
+        transform: ["translateX(-200px)", "translateX(0px)"],
+      },
+      {
+        fill: "both",
+        duration:1000});
+    }
+    else{
+      x.animate(
+      {
+        opacity: [0, 1],
+        transform: ["translateX(200px)", "translateX(0px)"],
+      },
+      {
+        fill: "both",
+        duration:1000});
+    }
   }
 }
