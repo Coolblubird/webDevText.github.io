@@ -65,7 +65,7 @@ nav a{
     padding-top: 1em;
 }
 
-.burgerMenu, .storyOption{
+.burgerMenu{
     cursor: pointer;
     float: right;
     right:0;
@@ -88,7 +88,7 @@ nav a{
     color: #c4002e;
 }
 
-#storyDetailOne{
+#storyDetailsOne, #storyDetailsTwo, #storyDetailsThree, #storyDetailsFour, #storyDetailsFive, #storyDetailsSix, #storyDetailsSeven, #storyDetailsEight{
     display: none;
 }
 
