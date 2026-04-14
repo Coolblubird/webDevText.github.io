@@ -66,7 +66,7 @@ nav a{
 }
 
 header img{
-    width: 100%;
+    width: 350px;
     height: auto;
     margin: 0 auto;
 }
@@ -183,24 +183,6 @@ main .about2 {
     margin: 2em 0;
  }
 
-footer{
-    background-color: #0a122c;
-    padding: 5em;
-    display: flex;
-    justify-content: center;
-}
-
-footer div{
-    margin: 1em;
-    color: white;
-    text-align: center;
-}
-
-footer div a{
-    display: inline-block;
-    margin: 0.5em;
-}
-
 fieldset {
     border: 2px solid #0a122c;
     padding: 1em;
@@ -300,6 +282,29 @@ tbody tr:hover td {
     transition: color 0.3s ease;
 }
 
+footer{
+    background-color: #0a122c;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    margin: 1em;
+    color: white;
+    text-align: center;
+}
+
+footer div a{
+    display: inline-block;
+    margin: 0.5em;
+}
+
+footer img{
+    width: 32px;
+    height: auto;
+}
+
 /*Media Queries for Desktop/Large Tablet*/
 @media (min-width: 768px) and (max-width: 1024px) {
     header img{
@@ -329,10 +334,10 @@ tbody tr:hover td {
         white-space: nowrap;
     }
     th, td {
-    text-align: left;
-    padding: 1em;
-    border-bottom: 1px solid #ddd;
-}
+        text-align: left;
+        padding: 1em;
+        border-bottom: 1px solid #ddd;
+    }
 }
 
 /*Media Queries for Large Desktops*/
@@ -364,15 +369,15 @@ tbody tr:hover td {
         white-space: nowrap;
     }
     fieldset {
-    border: 2px solid #0a122c;
-    padding: 1em;
-    margin: 1em auto;
-    width: 95%;
-    max-width: 600px;
-}
-th, td {
-    text-align: left;
-    padding: 1em;
-    border-bottom: 1px solid #ddd;
-}
+        border: 2px solid #0a122c;
+        padding: 1em;
+        margin: 1em auto;
+        width: 95%;
+        max-width: 600px;
+    }
+    th, td {
+        text-align: left;
+        padding: 1em;
+        border-bottom: 1px solid #ddd;
+    }
 }
