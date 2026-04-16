@@ -166,7 +166,7 @@ main .about2 {
 }
 
 /*So that JS plays nice :)*/
-#storyDetails1, #storyDetails2, #storyDetailsOne, #storyDetailsTwo, #storyDetailsThree, #storyDetailsFour, #storyDetailsFive, #storyDetailsSix, #storyDetailsSeven, #storyDetailsEight{
+#storyDetails1, #storyDetails2, #storyDetailsOne, #storyDetailsTwo, #storyDetailsThree, #storyDetailsFour, #storyDetailsFive, #storyDetailsSix, #storyDetailsSeven, #storyDetailsEight, #dropperOne, #dropperTwo, #dropperThree, #dropperFour, #dropperFive,#dropperSix, #dropperSeven, #dropperEight{
     display: none;
 }
 
