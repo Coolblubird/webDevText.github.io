@@ -22,7 +22,7 @@ function dropMenu() {
 
 function dropStory(storyID) {
   var x = document.getElementById("storyDetails" + storyID);
-  var y = document.getElmentById("dropper" + storyID);
+  var y = document.getElementById("dropper" + storyID);
   if (x.style.display === "block") {
     document.getElementById("storyOption" + storyID).innerHTML="&#9660;";
     x.style.display = "none";
