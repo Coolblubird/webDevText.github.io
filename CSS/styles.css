@@ -65,6 +65,27 @@ nav a{
     padding-top: 1em;
 }
 
+.burgerMenu{
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+#navLinks{
+    display: none;
+}
+
+#navLinks a{
+    display: block;
+    margin: 0.5em;
+    font-size: 3em;
+}
+
+#currentPage{
+    color: #c4002e;
+    background-color: #0e1944;
+}
+
 header{
     background-color: #0a122c;
     color: white;
@@ -76,29 +97,6 @@ header img{
     width: auto;
     height: auto;
     margin: 0;
-}
-
-.burgerMenu{
-    cursor: pointer;
-    float: right;
-    right:0;
-    top:0;
-    font-size: 2em;
-}
-
-#navLinks{
-    display: none;
-    background-color: #03050c;
-}
-
-#navLinks a{
-    display: block;
-    margin: 0.5em;
-    font-size: 3em;
-}
-
-#currentPage{
-    color: #c4002e;
 }
 
 .images img{
@@ -338,6 +336,22 @@ footer img{
         display: none;
     }
 
+    #navLinks{
+        display: none;
+        background-color: #03050c;
+    }
+
+    #navLinks a{
+        display: block;
+        margin: 0.5em;
+        font-size: 3em;
+    }
+
+    #currentPage{
+        color: #c4002e;
+        background-color: transparent;
+    }
+
     label {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -371,6 +385,22 @@ footer img{
 
     #mobile-nav{
         display: none;
+    }
+
+    #navLinks{
+        display: none;
+        background-color: #03050c;
+    }
+
+    #navLinks a{
+        display: block;
+        margin: 0.5em;
+        font-size: 3em;
+    }
+
+    #currentPage{
+        color: #c4002e;
+        background-color: transparent;
     }
     
     label {
