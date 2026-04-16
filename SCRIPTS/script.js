@@ -7,6 +7,14 @@ function dropMenu() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+	x.animate(
+    	{
+    	opacity: [0, 1],
+    	transform: ["translateY(-200px)", "translateY(0px)"],
+    	},
+    	{	
+   		fill: "both",
+    	duration:1000});
   }
 } 
 
