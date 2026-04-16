@@ -22,12 +22,15 @@ function dropMenu() {
 
 function dropStory(storyID) {
   var x = document.getElementById("storyDetails" + storyID);
+  var y = document.getElmentById("dropper" + storyID);
   if (x.style.display === "block") {
     document.getElementById("storyOption" + storyID).innerHTML="&#9660;";
     x.style.display = "none";
+	y.style.display = "none";
     
   } else {
     x.style.display = "block";
+	y.style.display = "block";
 	  document.getElementById("storyOption" + storyID).innerHTML="&#9650;";
 
     //randomize which direction to come from
